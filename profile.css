@@ -1,0 +1,70 @@
+.sp {
+    display:block;
+
+}
+
+
+.header img {
+    width:400px;
+    border-radius:6px;
+}
+
+.header {
+    text-align: center;
+}
+
+.menu-wrap p {
+    display: inline-block;
+    text-align: left;
+}
+
+.menu-wrap input {
+    display:none;
+}
+
+
+.menu-wrap p {
+    margin:0;
+    padding:0;
+
+}
+
+.menu-wrap p{
+    height:0;
+    overflow:hidden;
+    line-height: 1.5;
+    transition:all 0.3s;
+}
+
+#acd-menu:checked~.question p,
+#acd-menu2:checked~.question02 p,
+#acd-menu3:checked~.question03 p {
+    height:300px;
+}
+
+.menu-wrap h4 {
+    text-decoration:underline;
+    display:inline-block;
+}
+
+.menu-wrap h4:hover {
+    cursor:pointer;
+    opacity:0.8;
+}
+
+.sp {
+    display: none !important;
+}
+
+/*スマホレスポンシブ*/
+
+@media only screen and (max-width:1000px){
+    .pc{
+        display:none !important;
+    }
+    .sp{
+        display:block !important;
+        margin:0 auto;
+    } 
+    
+}

@@ -1,0 +1,10 @@
+
+
+.landingpage{
+    text-align: center;
+}
+
+.landingpage a:hover{
+    transition:all 0.2s;
+    opacity: 0.5;
+}
